@@ -3,26 +3,7 @@
 <head>
 <title>WEB1-CSS</title>
 <meta charset="utf-8">
-<style>
-    #active {
-        color:red;
-        text-decoration: underline;
-        font-weight:bold;
-    }
-    .saw {
-        color:gray;
-    }
-    a {
-        color:black;
-        text-decoration: none;
-    }
-    h1 {
-        font-size:45px;
-        text-align:center;
-        border-bottom:1px solid glay;
-    }
-    
-</style>
+<link rel="stylesheet" href="stylecss.css">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ML6BS552RZ"></script>
 <script>
@@ -35,19 +16,24 @@
 </head>
 <body>
     <h1><a href="index.html">WEB</a></h1>
-<ol>
-    <li><a href="1.html"class="saw">HTML</a></li>
-    <li><a href="2.html"id="active">CSS</a></li>
-    <li><a href="3.html"class="saw">JavaScript</a></li><br>
-</ol>
-<h2>CSS</h2>
-<P>CSS란?
-    CSS는 Cascading Style Sheets의 약자입니다.
-    
-    CSS는 HTML 요소들이 각종 미디어에서 어떻게 보이는가를 정의하는 데 사용되는 스타일 시트 언어입니다.
-    
-    HTML4 부터는 이러한 모든 서식 설정을 HTML 문서로부터 따로 분리하는 것이 가능해졌습니다.
-    
-    오늘날 대부분의 웹 브라우저들은 모두 CSS를 지원하고 있습니다.</P>
+<div id="grid">
+    <ol>
+        <li><a href="1.html">HTML</a></li>
+        <li><a href="2.html" id="active">CSS</a></li>
+        <li><a href="3.html">JavaScript</a></li><br>
+    </ol>
+    <div id="article">
+        <h2>CSS</h2>
+            <P>CSS란?
+                CSS는 Cascading Style Sheets의 약자입니다.
+            
+                CSS는 HTML 요소들이 각종 미디어에서 어떻게 보이는가를 정의하는 데 사용되는 스타일 시트 언어입니다.
+            
+                HTML4 부터는 이러한 모든 서식 설정을 HTML 문서로부터 따로 분리하는 것이 가능해졌습니다.
+            
+                오늘날 대부분의 웹 브라우저들은 모두 CSS를 지원하고 있습니다.
+            </P>
+    </div>
+</div>
 </body>
 </html>
