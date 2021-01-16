@@ -39,7 +39,7 @@ ol {
 h2 {
     margin-bottom: -5px;
 }
-@media(max-width:800px) {
+@media(max-width:768px) {
     #grid {
     display: block;
     }
